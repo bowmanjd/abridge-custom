@@ -52,6 +52,8 @@
           <li><a href="https://www.youtube.com/{{ social_config.youtube }}" target="_blank" title="YouTube"><i type="Button" class="svg youtube" title="YouTube"></i></a></li>{% endif -%}
           {%- if social_config.buymeacoffee -%}
           <li><a href="https://www.buymeacoffee.com/{{ social_config.buymeacoffee }}/" target="_blank" title="Buy Me A Coffee"><i type="Button" class="svg buymeacoffee" title="Buy Me A Coffee"></i></a></li>{% endif -%}
+          {%- if social_config.kofi -%}
+          <li><a href="https://www.ko-fi.com/{{ social_config.kofi }}/" target="_blank" title="Support me on Ko-fi"><i type="Button" class="svg kofi" title="Support me on Ko-fi"></i></a></li>{% endif -%}
           {%- if social_config.github_sponsor -%}
           <li><a href="https://github.com/sponsors/{{ social_config.github_sponsor }}/" target="_blank" title="GitHub Sponsor"><i type="Button" class="svg github-sponsor" title="GitHub Sponsor"></i></a></li>{% endif -%}
         </ul>
