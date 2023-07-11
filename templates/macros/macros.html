@@ -55,7 +55,7 @@
 {%- endmacro meta_post %}
 
 {%- macro title_index(page, config) %}
-        <h1>{% if config.extra.title_size_index %}<span class="{{ config.extra.title_size_index }}">{% endif %}<a href="{{ page.permalink | safe }}{%- if config.extra.uglyurls %}index.html{%- endif %}">{{ page.title }}</a>{% if config.extra.title_size_index %}</span>{% endif %}</h1>
+        <h2>{% if config.extra.title_size_index %}<span class="{{ config.extra.title_size_index }}">{% endif %}<a href="{{ page.permalink | safe }}{%- if config.extra.uglyurls %}index.html{%- endif %}">{{ page.title }}</a>{% if config.extra.title_size_index %}</span>{% endif %}</h2>
 {%- endmacro title_index %}
 
 
